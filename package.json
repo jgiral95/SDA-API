@@ -1,15 +1,14 @@
 {
   "name": "arduino-node-serialport",
   "version": "1.0.0",
-  "description": "# Steps 1. load serial-sketch to arduino   - you can see serial: `cat /dev/ttyACM0`",
+  "description": "Connect to arduino via Serial",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
     "express": "^4.16.2",
     "serialport": "^6.0.4",
